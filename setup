@@ -17,3 +17,5 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docke
 
 sudo apt update
 sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+
+# https://www.datacamp.com/tutorial/install-docker-debian is a resource for docker installation
